@@ -1,0 +1,14 @@
+# Node.js
+node_modules/
+.env
+.DS_Store
+npm-debug.log*
+# VSCode
+.vscode/
+# OS
+Thumbs.db
+# Logs
+logs/
+*.log
+# PDF and data
+*.pdf
