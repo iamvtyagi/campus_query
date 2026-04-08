@@ -1,15 +1,24 @@
 {
-  "name": "test1",
+  "name": "campus-query-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "Backend API for CampusQuery, an AI-powered RAG-based multilingual chatbot.",
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "rag",
+    "chatbot",
+    "multilingual",
+    "langchain",
+    "pinecone",
+    "google-gemini"
+  ],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@azure/storage-blob": "^12.28.0",
     "@google/genai": "^1.17.0",
